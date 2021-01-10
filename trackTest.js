@@ -24,6 +24,7 @@ function renderAudioFiles(filename, num) {
       }),
     ],
   });
+  // load tracks
   wavesurfer.load(`/tracktest/data/tracks/${filename}.wav`);
   return wavesurfer;
 }
