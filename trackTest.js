@@ -182,7 +182,7 @@ wavesurfer['waveform-0'].on('pause', function () {
 var trackField = document.querySelector('.track-testfield');
 var currentPos;
 var percentage;
-var offsetX = 390;
+var offsetX =0;
 
 // When mouse moves on track-testfield div, cursor will move.
 trackField.addEventListener('mousemove', (e) => {
