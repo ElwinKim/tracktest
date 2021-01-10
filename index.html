@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This page is for testing Tracks</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.4/wavesurfer.min.js" integrity="sha512-mhqErQ0f2UqnbsjgKpM96XfxVjVMnXpszEXKmnJk8467vR8h0MpiPauil8TKi5F5DldQGqNUO/XTyWbQku22LQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.4/plugin/wavesurfer.cursor.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.4/plugin/wavesurfer.regions.min.js"></script>
+</head>
+<body>
+    <div class="create-content" id="create-content">
+        <div class="form-wrapper">
+            <div class="tracks-label">File Test</div>
+            <div class="play-label">
+                <input type="checkbox" id="playChecker">
+                <input type="checkbox" id="playPause">
+                <i class="far fa-play-circle" id="playbtn"></i>
+                <span class="playText">Play / Pause</span>
+            </div>
+            <div class="track-testfield">
+                <div class="cursor"></div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">DRUMS</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">EG1</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">PAD1</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">STEREO_E_70</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">STEREO_E_70</span>
+                    </div>
+                    <div class="wave-wrapper">
+                            <div class="wave-control-wrapper"></div>
+                            <div class="wave-form"></div>
+                        </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">STEREO_E_70</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">SYNTHBASS</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+                <div class="track-form">
+                    <div class="track-name">
+                        <span id="filename">SYNTHLEAD</span>
+                    </div>
+                    <div class="wave-wrapper">
+                        <div class="wave-control-wrapper"></div>
+                        <div class="wave-form"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="trackTest.js"></script>
+</body>
+</html>
