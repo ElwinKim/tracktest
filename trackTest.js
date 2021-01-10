@@ -27,7 +27,7 @@ function renderAudioFiles(filename, num) {
   wavesurfer.load(`/data/tracks/${filename}.wav`);
   return wavesurfer;
 }
-// waveColor: 'hsl(44, 0%, 87%)',
+
 // Rendering waveform that would save uder file name
 var wavesurfer = [];
 var files = [];
