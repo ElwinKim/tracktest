@@ -24,13 +24,12 @@ function renderAudioFiles(filename, num) {
       }),
     ],
   });
-  wavesurfer.load(`/data/tracks/${id}/${filename}.wav`);
+  wavesurfer.load(`/data/tracks/${filename}.wav`);
   return wavesurfer;
 }
 // waveColor: 'hsl(44, 0%, 87%)',
 // Rendering waveform that would save uder file name
 var wavesurfer = [];
-const id = document.querySelector('.hidden_id').value;
 var files = [];
 files = document.querySelectorAll('#filename');
 var waveNum = 0;
