@@ -24,7 +24,7 @@ function renderAudioFiles(filename, num) {
       }),
     ],
   });
-  wavesurfer.load(`/data/tracks/${filename}.wav`);
+  wavesurfer.load(`tracktest/data/tracks/${filename}.wav`);
   return wavesurfer;
 }
 // waveColor: 'hsl(44, 0%, 87%)',
